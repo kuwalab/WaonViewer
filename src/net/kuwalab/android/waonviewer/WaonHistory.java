@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
+import net.kuwalab.android.util.HexUtil;
 import android.util.Log;
 
 public class WaonHistory implements Comparable<WaonHistory> {

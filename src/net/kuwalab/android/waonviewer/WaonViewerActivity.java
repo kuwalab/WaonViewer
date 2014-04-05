@@ -12,6 +12,7 @@ import net.kazzz.felica.FeliCaException;
 import net.kazzz.felica.FeliCaTag;
 import net.kazzz.felica.command.ReadResponse;
 import net.kazzz.felica.lib.FeliCaLib.ServiceCode;
+import net.kuwalab.android.util.HexUtil;
 import android.app.Activity;
 import android.app.PendingIntent;
 import android.app.ProgressDialog;
