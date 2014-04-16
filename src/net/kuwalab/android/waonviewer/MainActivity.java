@@ -60,7 +60,6 @@ public class MainActivity extends Activity {
 
 	public void onNewIntent(Intent intent) {
 		super.onNewIntent(intent);
-		String action = intent.getAction();
 		Parcelable nfcTag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG);
 		re(nfcTag);
 	}
