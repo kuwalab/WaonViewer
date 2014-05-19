@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">WAON Viewer</string>
+  <string name="kara">～</string>
+  <string name="waon_first_step">WAONを端末にかざしてください</string>
+  <string name="waon_use_date">利用日</string>
+  <string name="waon_add">積増</string>
+  <string name="waon_use">使用</string>
+  <string name="waon_title">WAON</string>
+  <string name="waon_rest">残高</string>
+  <string name="waon_last_conf_date">最終確認日</string>
+  <string name="date_format">yyyy/MM/dd</string>
+  <string name="status_reading">読込中です。\nカードを動かさないでください。</string>
+  <string name="status_finish">読み込みました。\nカードを取り外してください。</string>
+  <string name="waon_yen_sign">￥</string>
+  <string name="waon_widget_state_nothing">未確認</string>
+  <string name="waon_money_format">--,---</string>
+  <string name="waon_not_waon">WAONでないか、カードが読み込めません。</string>
+  <string name="menu_settings">設定</string>
+</resources>

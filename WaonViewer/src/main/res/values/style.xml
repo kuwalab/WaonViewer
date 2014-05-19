@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="WaonRestStyle">
+<!--     <item name="android:textColor">#e7380d</item>
+    <item name="android:background">#a4cddf</item> -->
+    <item name="android:typeface">monospace</item>
+    <item name="android:textSize">25sp</item>
+  </style>
+  <style name="WaonHistoryStyle">
+<!--     <item name="android:textColor">#ffffff</item>
+    <item name="android:background">#a4cddf</item> -->
+    <item name="android:typeface">monospace</item>
+    <item name="android:textSize">18sp</item>
+  </style>
+  <style name="WaonStyle">
+<!--     <item name="android:background">#a4cddf</item>
+    <item name="android:textColor">#000000</item> -->
+    <item name="android:typeface">monospace</item>
+    <item name="android:textSize">16sp</item>
+  </style>
+  <style name="WaonAddMoneyStyle">
+    <item name="android:textColor">#0000ff</item>
+    <item name="android:gravity">right</item>
+  </style>
+  <style name="WaonUseMoneyStyle">
+    <item name="android:textColor">#ff0000</item>
+    <item name="android:gravity">right</item>
+  </style>
+  <style name="WaonRestMoneyStyle">
+    <item name="android:textColor">#000000</item>
+    <item name="android:gravity">right</item>
+  </style>
+  <style name="IcaWidgetStyle">
+    <item name="android:textColor">#e7380d</item>
+    <item name="android:background">#a4cddf</item>
+    <item name="android:gravity">center</item>
+  </style>
+  <style name="IcaWidgetNormalStyle">
+    <item name="android:textColor">#000000</item>
+    <item name="android:textSize">10sp</item>
+  </style>
+</resources>
