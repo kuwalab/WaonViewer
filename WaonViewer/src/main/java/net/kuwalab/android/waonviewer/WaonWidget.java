@@ -20,9 +20,13 @@ public class WaonWidget extends AppWidgetProvider {
         RemoteViews remoteViews = new RemoteViews(context.getPackageName(),
                 R.layout.widget_main);
         remoteViews.setTextViewText(R.id.confDate,
-                pref.getString(PREFERENCES_CONF_DATE, "未確認"));
+                pref.getString(PREFERENCES_CONF_DATE,
+                        context.getString(R.string.waon_widget_state_nothing))
+        );
         remoteViews.setTextViewText(R.id.widetRest,
-                pref.getString(PREFERENCES_REST_MONEY, "￥--,---"));
+                pref.getString(PREFERENCES_REST_MONEY,
+                        context.getString(R.string.waon_money_format))
+        );
         awm.updateAppWidget(new ComponentName(context, WaonWidget.class),
                 remoteViews);
     }
