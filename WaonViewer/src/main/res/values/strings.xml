@@ -14,7 +14,7 @@
   <string name="status_finish">読み込みました。\nカードを取り外してください。</string>
   <string name="waon_yen_sign">￥</string>
   <string name="waon_widget_state_nothing">未確認</string>
-  <string name="waon_money_format">￥--,---</string>
+  <string name="waon_money_format">--,---</string>
   <string name="waon_not_waon">WAONでないか、カードが読み込めません。</string>
   <string name="menu_settings">設定</string>
 </resources>
